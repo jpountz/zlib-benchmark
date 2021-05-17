@@ -23,7 +23,6 @@ public class ZlibBenchmarkState {
 
   @Param({ "1048576" }) // 1MB
   int uncompressedSize;
-  
 
   @Param({ "3", "6" })
   int level;
